@@ -1,59 +1,59 @@
 # modoru 戻る
 
-*modoru* means "to go back" in Japanese and is a downgrader for the *PS Vita™*.
+*modoru* significa "volver" en Japonés y es un Downgrader/ *PS Vita™*.
 
-## Requirements
+## Requisitos
 
-- Your device must already run **HENkaku/h-encore** on firmwares 3.60-3.68 in order to use this software. Firmwares 3.69 and 3.70 can use this software once a new hack is released.
-- Your device's battery has be at least at 50%.
-- All your plugins must be disabled, therefore you will not be able to launch the downgrader from a SD2VITA and hence, you must have a Memory Card (or Internal Storage).
-- If you have installed IMCUnlock by SKGleba, it is recommended to uninstall it first before attempting to downgrade.
+- Tu dispositivo debe correr **HENkaku/h-encore** en firmwares 3.60-3.68 para poder utilizar este software. Firmwares 3.69 y 3.70 podrán utilizarlo una vez se libere el nuevo hack.
+- La batería de tu dispositivo debe estar por lo menos al 50%.
+- Todos los plugins deben estar deshabilitados, por lo tanto no podrás correr el downgrader desde SD2VITA por lo que, necesitarás tener una Memoria Original (PS Vita Fat) o Memoria Interna (PS Vita Slim/PSTV)
+-Si instalaste IMCUnlock de SKGleba, es recomendado que lo desinstales primero antes de intentar hacer el downgrade.
 
-## Installation
+## Instalación 
 
-1. Download and install [modoru.vpk](https://github.com/TheOfficialFloW/modoru/releases/download/v1.0/modoru.vpk) using *VitaShell*.
-2. Obtain the `PSP2UPDAT.PUP` file of your desired firmware (make sure that this firmware is officially hackable) and place it at `ux0:app/MODORU000/PSP2UPDAT.PUP` (don't install `modoru.vpk` afterwards, otherwise the update file will be removed).
-3. Disable all your plugins. Easiest way is renaming `ux0:tai` and `ur0:tai` to some other name.
-4. Reboot your device and relaunch *HENkaku/h-encore*.
-5. Launch the *modoru* application and follow the instructions on screen.
-6. Enjoy the installation and welcome to your favourite firmware.
+1. Descarga e instala [modoru.vpk](https://github.com/TheOfficialFloW/modoru/releases/download/v1.0/modoru.vpk) usando *VitaShell*.
+2. Obtén el archivo `PSP2UPDAT.PUP`del firmware de tu preferencia (asegúrate de que este firmware se puede hackear) y colócalo en `ux0:app/MODORU000/PSP2UPDAT.PUP` (no hagas la instalación de `modoru.vpk` después porque el archivo de actualización será eliminado).
+3. Desactiva TODO tus plugins. La manera más fácil es renombrando `ux0:tai` y `ur0:tai` de otra manera.
+4. Reinicia tu consola y lanza *HENkaku/h-encore*.
+5. Lanza la aplicación *modoru* y sigue las instrucciones en pantalla.
+6. Disfruta de la instalación y bienvenido de nuevo a tu firmware favorito.
 
-## FAQ
+## FAQ/Preguntas Más Frecuentes
 
-- Q: Where can I find and download firmwares?  
-  A: Here is a nice collection by darthsternie: [PS Vita Firmwares](https://darthsternie.net/index.php/ps-vita-firmwares/). Make sure you download the firmware from the `Complete Official Firmwares` section.
-- Q: There are 3 different PUP files in the archive, which one do I need?  
-  A: There are packages with (pre), (systemdata) and (full). You should choose the full one.
-- Q: Can I downgrade my 3.69/3.70 device using this tool?  
-  A: Yes, but not yet. You'll need to wait until the next exploit chain is released.
-- Q: My factory firmware is higher than 3.65 and *modoru* doesn't allow me to downgrade to 3.60/3.65.  
-  A: Unfortunately, there are some devices with factory firmware above 3.65. These cannot be downgraded (yet). This means no bootloader hack for you.
-- Q: Can I downgrade my device to 3.60/3.65 and then install ensō?  
-  A: Yes, that's the main goal of this tool.
-- Q: Can I downgrade my testkit/devkit?  
-  A: It has not been tested yet, but you can very likely do it. You should even be able to go lower than firmware 1.692, which is officially inhibited.
-- Q: How low can I downgrade?  
-  A: You can go down to your factory firmware (this is highlighted in yellow within *modoru*).
-- Q: Can I use this tool to update or reinstall my firmware?  
-  A: Yes, you can downgrade, update or reinstall any firmware using this tool.
-- Q: Is there a chance of bricking?  
-  A: Not likely, since this application is using the official updater and only makes a few harmless patches to bypass some checks.
+- P: Donde puedo encontrar y descargar los Firmwares de PS Vita? 
+  R: Aquí está una bonita colección hecha por darthsternie: [PS Vita Firmwares](https://darthsternie.net/index.php/ps-vita-firmwares/). Asegúrate que descargas el firmware de la sección `Complete Official Firmwares`.
+- P: Hay 3 archivos diferentes en la descarga del PUP, cuál es el que necesito?  
+  R: Hay paquetes con (pre), (systemdata) y (full). Debes seleccionar el que dice full.
+- P: Puedo hacer downgrade en mi consola con 3.69/3.70 usando esta herramienta?  
+  R: Sí podrás. Tendrás que esperar a que se libere la próxima cadena de exploit para poder hacerlo.
+- P: Mi firmware de fábrica es mayor a 3.65 y *modoru* no me deja hacer downgrade a 3.60/3.65.  
+  R: Desafortunadamente, hay algunas consolas con firmware de fábrica superior a 3.65. Esas consolas AÚN no pueden ser downgradeadas. Esto quiere decir lamentablemente que no hay hack de bootloader para ti por ahora.
+- P: Puedo hacer downgrade a mi consola y dejarla en 3.60/3.65 para instalarle ensō?  
+  R: Sí, esta es la razón de ser principal de esta herramienta.
+- P: Puedo hacer downgrade a mi testkit/devkit (consola para pruebas/consola de desarrollo)?  
+  R: No ha sido probado aún, pero puedes probarlo. Deberías ser posible llegar más abajo de la versión de firmware 1.692, que es oficialmente inhibida.
+- P: Qué tan bajo puedo hacer downgrade?  
+  R: Puedes llegar hasta el firmware de fábrica de tu consola (estará marcado en amarillo dentro de *modoru*).
+- P: Puedo usar esta herramienta para actualizar y reinstalar mi firmware?  
+  R: Sí, puedes hacer downgrade, actualizar o reinstalar cualquier firmware usando esta herramienta.
+- P: Hay algún riesgo de brick? 
+  R: No es probable, puesto a que esta aplicación utiliza el actualizador oficial y solo coloca unos cuantos parches inofensivos para brincarse algunos chequeos.
 
-## Donation
+## Donación
 
-If you like my work and want to support future projects, you can make a donation:
+Si te gusta mi trabajo y quieres apoyar mis futuros proyectos, puedes hacer una donación:
 
-- via bitcoin `361jRJtjppd2iyaAhBGjf9GUCWnunxtZ49`
-- via [paypal](https://www.paypal.me/flowsupport/20)
-- via [patreon](https://www.patreon.com/TheOfficialFloW)
+- A través de bitcoin `361jRJtjppd2iyaAhBGjf9GUCWnunxtZ49`
+- A través de [paypal](https://www.paypal.me/flowsupport/20)
+- A través de [patreon](https://www.patreon.com/TheOfficialFloW)
 
 Thank you!
 
-## Credits
+## Créditos
 
-- Thanks to Freakler for the LiveArea design.
-- Thanks to liblor for the name suggestion.
-- Thanks to yifanlu for prior research on downgrading.
-- Thanks to molecule for SCE decryption utilities.
-- Thanks to SKGleba for betatesting.
+- Gracias a Freakler por el diseño del LiveArea.
+- Gracias a liblor por la sugerencia del nombre.
+- Gracias a yifanlu por la investigación previa al downgrading.
+- Gracias a molecule por las utilidades de desencriptación SCE.
+- Gracias a SKGleba por el betatesting.
 
